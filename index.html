@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="css/estilos.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 </head>
 <body>
@@ -12,15 +13,15 @@
     <!--MENÚ DE NAVEGACIÓN-->
     <nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
         <div class="container-fluid">
-            <a class="navbar-brand active" href="">HOME</a>
+            <a class="navbar-brand" id="active" href="">Git y GitHub</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav" id="divEnlaces">
-                    <a class="nav-link" href="#">Página 1</a>
-                    <a class="nav-link" href="#">Página 2</a>
-                    <a class="nav-link" href="#">Página 3</a>
+                    <a class="nav-link" href="subpaginas/pagina1.html">Empezando con Git</a>
+                    <a class="nav-link" href="subpaginas/pagina2.html">Empezando con GitHub</a>
+                    <a class="nav-link" href="subpaginas/pagina3.html">¿Por qué utilizar Git / GitHub?</a>
                 </div>
             </div>
         </div>
@@ -29,9 +30,35 @@
 
     <!--CONTENIDO DE PÁGINA-->
     <div class="container border">
-        <h1 class="text-center">¡Bienvenido a mi página web!</h1>
+        <h1 class="text-center">Git y GitHub</h1>
         <p class="text-center">
-            <img src="img/logo fime.png" width="25%" alt="">
+            <img src="img/logo git.png" width="15%" alt="">
+            <img src="img/logo gitHub.png" width="15%" alt="">
+        </p>
+        <h3 class="text-center">Git</h3>
+        <p class="lead">
+            Git es un sistema de control de versiones, lo que eso significa realmente es que Git nos ayuda a gestionar nuestros archivos de
+            proyecto. Una de las cosas principales que hace Git y también la razón principal por la que existe es para mantener un registro de
+            toda la historia de las cosas en las que estás trabajando. <br> Esto es especialmente útil para los desarrolladores porque cuando estás
+            trabajando en un proyecto primero construyes una versión básica del mismo y luego tratas de mejorarlo añadiendo nuevas características o
+            simplemente experimentando con las cosas. Todo este proceso de experimentar con nuevas características es increíblemente propenso a
+            errores y es posible que desee volver a su código original. <br> Aquí es donde el control de versiones entra en juego, realiza un
+            seguimiento automático de cada minuto de cambio en tu proyecto y nos permite volver a una versión anterior sin importar cuántas veces
+            haya cambiado sus archivos. <br> Otra cosa asombrosa que Git permite hacer es que permite a las personas trabajar juntos en el mismo
+            proyecto al mismo tiempo sin perturbar los archivos de los demás. La colaboración es aún más fácil con Git, los miembros de un equipo
+            pueden trabajar en diferentes características y fusionar fácilmente los cambios.
+        </p>
+        <h3 class="text-center">GitHub</h3>
+        <p class="lead">
+            GitHub es un servicio basado en la web para el control de versiones usando Git. Básicamente, es un sitio de redes sociales para
+            desarrolladores. Puedes mirar el código de otras personas, identificar los problemas con su código e incluso proponer cambios.
+            Esto también le ayuda a mejorar su código. En una nota más ligera, es un gran lugar para mostrar tus proyectos y ser notado por los
+            reclutadores potenciales.
+        </p>
+        <h3 class="text-center">¿Cuál es la diferencia entre Git y GitHub</h3>
+        <p class="lead text-center">
+            Git es una herramienta de control de versiones distribuida que puede gestionar el historial de código fuente de un proyecto de desarrollo,
+            mientras que GitHub es una plataforma basada en la nube construida alrededor de la herramienta Git.
         </p>
     </div>
     <!--TERMINA CONTENIDO DE PÁGINA-->
